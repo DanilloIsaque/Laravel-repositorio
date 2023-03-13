@@ -14,6 +14,8 @@ class ProdutoController extends Controller
     }
 
     public function show(Produto $produto){
-        dd($produto);
+        // Isso mostra na tela o valor da variavel e para. DD
+        // dd($produto);
+        return view('produto.show')->with('produto',$produto);
     }
 }
