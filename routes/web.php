@@ -7,4 +7,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// Chama produto
 Route::get('/produto',[ProdutoController::class,'index']);
+Route::get('/produto/{produto}',[ProdutoController::class, 'show']);

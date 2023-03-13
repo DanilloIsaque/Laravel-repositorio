@@ -12,4 +12,8 @@ class ProdutoController extends Controller
 
         return view('produto.index')->with('produtos',$produtos);
     }
+
+    public function show(Produto $produto){
+        dd($produto);
+    }
 }
