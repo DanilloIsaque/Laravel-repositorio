@@ -7,9 +7,10 @@
     <title>{{ $produto->PRODUTO_NOME }}}</title>
 </head>
 <body>
-    
+
     <h1>{{ $produto->PRODUTO_NOME }}</h1>
     <span>{{ $produto->PRODUTO_PRECO }} - {{$produto->PRODUTO_DESCONTO}}</span>
 
+   
 </body>
 </html>
