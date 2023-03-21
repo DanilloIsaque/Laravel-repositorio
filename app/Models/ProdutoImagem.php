@@ -10,3 +10,5 @@ class ProdutoImagem extends Model
     use HasFactory;
     protected $table = "PRODUTO_IMAGEM";
 }
+
+
